@@ -10,7 +10,7 @@
 
 ### Arquitetura EKS
 
-![Arquitetura EKS](eks.png)
+![Arquitetura EKS](eks_architecture.png)
 
 [Editar diagrama](eks.excalidraw)
 
@@ -18,6 +18,6 @@
 
 ### Fluxo Terraform
 
-![Fluxo Terraform](terraform.png)
+![Fluxo Terraform](terraform_flow.png)
 
 [Editar diagrama](terraform.excalidraw)

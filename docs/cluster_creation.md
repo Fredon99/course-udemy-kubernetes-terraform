@@ -29,9 +29,26 @@ nc -v <CLUSTER_ENDPOINT_ID>.gr7.<region>.eks.amazonaws.com 443
 aws eks update-kubeconfig --region [region] --name [cluster-name]
 ```
 
-##### 1.2.2 Adicionando novo contexto no kubectl
+##### 1.2.2 Comando kubectl para verificar contextos
+``` bash
+kubectl config get-contexts
+```
+
+##### 1.2.3 Adicionando novo contexto no kubectl
 ``` bash
 kubectl config use-context [generated-arn]
+```
+
+#### 1.3 kubectl para verificar criação do node e pods
+
+##### 1.3.1 Comando aws para obter node
+``` bash
+kubectl get node
+```
+
+##### 1.3.2 Comando aws para obter pods
+``` bash
+kubectl get po -A
 ```
 
 ### 2. Criação do Managed Node Group

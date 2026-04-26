@@ -66,7 +66,7 @@ terraform plan
 ### 4. Aplicar infraestrutura
 
 ```bash
-terraform apply
+terraform apply -auto-approve
 ```
 
 ---

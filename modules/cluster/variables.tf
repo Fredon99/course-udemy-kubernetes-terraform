@@ -10,10 +10,10 @@ variable "tags" {
 
 variable "public_subnet_1a" {
   type        = string
-  description = "Description to create eks cluster at AZ 1a"
+  description = "Subnet to create eks cluster at AZ 1a"
 }
 
 variable "public_subnet_1b" {
   type        = string
-  description = "Description to create eks cluster at AZ 1b"
+  description = "Subnet to create eks cluster at AZ 1b"
 }

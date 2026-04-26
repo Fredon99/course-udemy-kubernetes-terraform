@@ -13,3 +13,11 @@ output "subnet_priv_1a" {
 output "subnet_priv_1b" {
   value = module.eks_network.subnet_priv_1b
 }
+
+output "eks_vcp_config" {
+    value = module.eks_cluster.eks_vpc_config
+}
+
+output "eks_oidc" {
+    value = module.eks_cluster.eks_oidc
+}
